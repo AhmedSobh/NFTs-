@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mooli&display=swap');
+*{
+    font-family: 'Mooli', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    transition: .5s;
+    text-decoration: none !important;
+}
+.sec1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("/images/peter-rovder-X_5kMOSxLzw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec1 .header .head li {
+    width: fit-content;
+    cursor: pointer;
+}
+.sec1 .header .head  ul{
+    width: fit-content;
+    font-size: 1.2rem;
+    gap: 50px;
+    margin: 10% 0 0 10%;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    list-style:none;
+}
+.sec1 .header .head .login{
+    margin-left: 50%;
+    gap: 80px;
+}
+
+.sec1 .header .head{
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sec1 .main-content{
+    gap: 60px;
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sec1 .main-content .left {
+    color: aliceblue;
+    font-size: 2.8rem;
+    max-width: 90%;
+    font-weight: 900;
+}
+.sec1 .main-content .left .visit{
+    color: aliceblue;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.sec1 .main-content .left .visit .fa-arrow-right{
+    color: blueviolet;
+    margin-left: 2%;
+}
+.sec1 .main-content .left .visit:hover{
+    border-bottom: 1.5px solid aliceblue;
+}
+
+
+.sec1 .main-content .left div{
+    display: inline;
+    font-weight: 900;
+    color: rgb(146, 93, 196);
+    font-size: 3.2rem;
+}
+.sec1 .main-content .right{
+    background-color: rgba(240, 248, 255, 0.084);
+    margin-top: -5%;
+    width: 600px;
+    height: 370px;
+    border: .5px solid rgba(146, 93, 196, 0.703);
+    border-radius: 15px;
+}
+.sec1 .main-content .right .image-container img{
+    margin: 30% 0 0 20%;
+    width: 70px;
+    height: 60px;
+    border: 2px solid rgb(66, 200, 86);
+    border-radius: 50%;
+}
+.sec1 .main-content .right .image-container .img2{
+    margin-left:-30px;
+}
+.sec1 .main-content .right .image-container .img3{
+    margin-left:-30px;
+
+}
+.sec1 .main-content .right .top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sec1 .main-content .right .users{
+    margin: 40% 0 0 15%;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.sec1 .main-content .right .mid-top{
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 10% 0 0 7%;
+    font-weight: 800;
+}
+.sec1 .main-content .right .mid-bot{
+    color:rgba(146, 93, 196);
+    font-size: 1.7rem;
+    margin: 0 0 0 7%;
+    font-weight: 700;
+}
+.sec1 .main-content .right .bot{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: blueviolet;
+    margin: 2% 0 0 7%;
+}
+/*////////////////////////////////////////////////////////////////////////////////////*/
+.sec2{
+    background-color: #111518;
+    width: 100%;
+    height: 300vh;
+}
+.sec2 .container-fluid{
+    gap: 1px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.sec2 .container-fluid .main-imgs{
+    margin:-50% 0 0 2%;
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+}
+.sec2 .container-fluid .main-imgs:hover{
+    border: 2px solid rgb(15, 242, 159);
+}
+.sec2 .container-fluid .special{
+    width: 80%;
+    height: 30%;
+    margin: -236% 0 0 10%;
+}
+.sec2 .container-fluid .about{
+    color: aliceblue;
+    margin: 10% 0 0 2%;
+}
+.sec2 .trending{
+    letter-spacing: 2px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec2 .trending-authors{
+    margin-top: 20%;
+    justify-content: space-around;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sec2 .trending-authors .table{
+    letter-spacing: 2px;
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgba(240, 248, 255, 0.701);
+    border-radius: 10px;
+}
+.sec2 .trending-authors .table .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -10% 0 0 35%;
+}
+.sec2 .trending-authors .table p{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 5% 0 0 30%;
+    cursor: pointer;
+    max-width:fit-content;
+    transition: 0s;
+}
+.sec2 .trending-authors .table p:hover{
+    transition: 0s;
+    color: rgb(0, 0, 177);
+    border-bottom: 1px solid rgb(0, 0, 177);
+}
+.sec2 .triple-img{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sec2 .container .left h2{
+    color: aliceblue;
+    max-width: 450px;
+    letter-spacing: 2px;
+    margin: 20% 0 0;
+    line-height: 3rem;
+}
+.sec2 .container .left h5{
+    color: aliceblue;
+    letter-spacing: 2px;  
+    margin-top: 3%;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.sec2 .container .left .visit{
+    color: aliceblue;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    cursor: pointer;
+    max-width: fit-content;
+    transition: 0s;
+}
+.sec2 .container .left .visit .fa-arrow-right{
+    color: rgb(0, 0, 177);
+    font-size: 1rem;
+}
+.sec2 .container .left .visit:hover{
+    transition: 0s;
+    color: rgb(0, 0, 177);
+    border-bottom: 1px solid rgb(0, 0, 177);
+}
+.sec2 .triple-img .visit{
+    border-bottom:1px solid rgba(240, 248, 255, 0) ;
+}
+.sec2 .triple-img .right .collection-img{
+    display: flex;
+    margin-left: 20%;
+}
+.sec2 .triple-img .right img{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.sec2 .triple-img .right .collection-img .img2{
+    z-index: 5;
+    width: 300px;
+    height: 300px;
+}
+.sec2 .triple-img .right .collection-img .img1{
+    width: 260px;
+    height: 260px;
+    transform: rotate(-.05turn);
+    margin: 5% -10% 0 0;
+}
+.sec2 .triple-img .right .collection-img .img3{
+    transform: rotate(.03turn);
+    width: 260px;
+    height: 260px;
+    margin: 2.6% 0 0 -10%;
+}
+.sec2 .mobile-app{
+    letter-spacing: 1px;
+    position: relative;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 7%;
+    width: 90%;
+    height: 450px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#36244e,#1a0b2f);
+}
+.sec2 .mobile-app .visit{
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+}
+.sec2 .mobile-app .left{
+    margin-left: 5%;
+}
+.sec2 .mobile-app .left h2{
+    font-size: 1.7rem;
+    max-width: 700px;
+}
+.sec2 .mobile-app .left h5{
+    font-size: .8rem;
+    color:gray;
+    margin-top: 10%;
+}
+.sec2 .mobile-app .right img{
+    position: absolute;
+    bottom: 0%;
+    width: 40%;
+    height: 100%;
+    margin: 1% 0 0 10%;
+}
+.sec2 .mobile-app .Bot-left{
+    position: relative;
+    top: 20%;
+    right: 2%;
+    color: aliceblue;
+    border-radius: 10px;
+    height: 600px;
+    background-image: linear-gradient(to right,#36244e,#1a0b2f);
+}
+.sec2 .mobile-app .Bot-left h2{
+    max-width: 350px;
+    margin: 8% 0 0 5%;
+}
+.sec2 .mobile-app .Bot-left .visit{
+    
+    margin: 7% 0 0 5%;
+}
+.sec2 .mobile-app .Bot-left img{
+    position: absolute;
+    bottom: 0%;
+    margin: 8% 0 0 10%;
+    width: 80%;
+}
+.sec2 .mobile-app .Bot-right{
+    position: relative;
+    top: 20%;
+    left: 3%;
+    color: aliceblue;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#36244e,#1a0b2f);
+}
+.sec2 .mobile-app .Bot-left .visit{
+    transition: 0s;
+    max-width:fit-content;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+}
+.sec2 .mobile-app .Bot-left .visit .fa-arrow-right{
+    color: rgb(0, 0, 177);
+}
+.sec2 .mobile-app .Bot-left .visit:hover{
+    transition: 0s;
+    color: rgb(0, 0, 177);
+    border-bottom: 1px solid rgb(0, 0, 177);
+}
+.sec2 .mobile-app .Bot-right h2{
+    max-width: 350px;
+    margin: 8% 0 0 5%;
+}
+.sec2 .mobile-app .Bot-right .visit{
+    cursor: pointer;
+    margin: 7% 0 0 5%;
+}
+.sec2 .mobile-app .Bot-right img{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 400px;
+}
+.sec2 .mobile-app .Bot-right .visit{
+    transition: 0s;
+    max-width:fit-content;
+    cursor: pointer;    
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+}
+.sec2 .mobile-app .Bot-right .visit .fa-arrow-right{
+
+    color: rgb(0, 0, 177);
+}
+.sec2 .mobile-app .Bot-right .visit:hover{
+    transition: 0s;
+    color: rgb(0, 0, 177);
+    border-bottom: 1px solid rgb(0, 0, 177);
+}
+.sec2 .collection .head h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.sec2 .collection .head{
+    justify-content: center;
+    color:aliceblue;
+    position: absolute;
+    top: 390%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*//////////////////////////////////////////////////////////////////////////////*/
+.sec3{
+    background-color: #111518;
+    height: 50vh;
+    width: 100%;
+}
+.sec3 .Cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+.sec3 .card{
+    height: 450px;
+    padding: 5%;
+    gap: 30px;
+    border: 1px solid #36244e;
+    background:none ;
+}
+.sec3 .card img{
+    border-radius: 10px;
+}
+.sec3 .card .right img{
+    width: 120px;
+    height: 120px;
+    margin: 5% 0 0 5%;
+}
+.sec3 .card .left img{
+    margin: 3% 0 0 0;
+    width: 220px;
+    height: 250px;
+}
+.sec3 .card .imgs{
+    display: flex;
+}
+.sec3 .card .icon{
+    margin: -30% 0 0 5%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.sec3 .card .details{
+    color: aliceblue;
+    margin-top: -10%;
+}
+.sec3 .card .details h2{
+    font-size: 1.5rem;
+}
+.sec3 .card .details h5{
+    font-size: .9rem;
+    cursor: pointer;
+    max-width:fit-content;
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+    transition: 0s;
+}
+.sec3 .card .details h5:hover{
+    transition: 0s;
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+/*//////////////////////////////////////////////////////////////////////////////////*/
+.sec4{
+    height: 42.5vh;
+    width: 100%;
+    background-color: #111518;
+}
+.sec4 .about{
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(to right,#8f75ac,#71598e) ;
+}
+.sec4 .about{
+    order: 1;
+    z-index: 50;
+    letter-spacing: 1px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+.sec4 .about .profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    margin: 30% 0 0 20%;
+}
+.sec4 .about .details{
+    max-width: 800px;
+    margin: 10% 0 0 10%;
+}
+.sec4 .about .details h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.sec4 .about .details h6{
+    font-size: .9rem;
+    font-weight: 200;
+    margin-top: 5%;
+}
+/*//////////////////////////////////////////////////////////////////////////////////*/
+.sec5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/bcg4-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111518;
+}
+.sec5 .access img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.sec5 .access .img1{
+    margin: 10% 0 0 10%;
+    height: 150px;
+    width: 150px;
+    transform: rotate(.05turn);
+}
+.sec5 .access .img2{
+    margin: 20% 0 0 20%;
+    transform: rotate(-.05turn);
+}
+.sec5 .access .img3{
+    margin: -50% 0 0 80%;
+    transform: rotate(-.05turn);
+}
+.sec5 .access .content div{
+    display: inline;
+    font-weight: 900;
+    color: rgb(146, 93, 196);
+    font-size: 3.2rem;
+}
+.sec5 .access .content{
+    letter-spacing: 1px;
+    max-width: 650px;
+    color: aliceblue;
+    font-size: 3rem;
+    position: absolute;
+    top: 530%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sec5 .Bottom .place{
+    margin-left: 5%;
+    color: aliceblue;
+    margin-top: 1%;
+    cursor: pointer;
+    max-width: fit-content;
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+    transition: 0s;
+}
+.sec5 .Bottom .place:hover{
+    color: blue;
+    transition: 0s;
+    border-bottom: 1px solid blue;
+}
+.sec5 .Bottom button{
+    margin-left: 40%;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    background-color:rgb(146, 93, 196) ;
+    color: aliceblue;
+}
+.sec5 .Bottom button:hover{
+    opacity: .8;
+}
+.sec5 .Bottom .place .fa-arrow-right{
+    color: blue;
+    margin-left: .5%;
+}
+/*//////////////////////////////////////////////////////////////////////////////////*/
+.footer{
+    height: 80vh;
+    width: 100%;
+    background-color: #29202f;
+}
+.footer .container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.footer .container .left{
+    letter-spacing: 1px;
+    margin: 70% 0 0 0;
+    color: aliceblue;
+}
+.footer .img-con{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer .img-con .border-right{
+    border-right: 1.5px solid rgba(105, 111, 116, 0.661);
+    height: 400px;
+    margin: -50% 0 0 20%;
+}
+.footer .img-con img{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+.footer .right .head{
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 20% 0 0 5%;
+}
+.footer .right .table{
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10% 0 0 10%;
+}
+.footer .right .table h2{
+    transition: 0s;
+    max-width: fit-content;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+}
+.footer .right .table h5{
+    transition: 0s;
+    max-width: fit-content;
+    cursor: pointer;
+    margin-top: 5%;
+    color: rgb(233, 210, 255);
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 1px solid rgba(240, 248, 255, 0);
+}
+.footer .right .table h2:hover{
+    transition: 0s;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.footer .right .table h5:hover{
+    transition: 0s;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+.footer .border-bottom{
+    opacity: .5;
+    width: 100%;
+    margin-top: 6%;
+}
+.footer .fotter-icons{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+.footer .icons{
+    font-size: 1.2rem;
+    margin-left: 60%;
+}
+.footer .icons .fa-instagram,.fa-whatsapp,.fa-youtube,.fa-facebook-f,.fa-linkedin-in{
+    cursor: pointer;
+}
+.footer .head .fa-arrow-right{
+    color: blue;
+    margin-left: .5%;
+}
